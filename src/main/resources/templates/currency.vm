@@ -1,0 +1,69 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mero Currency Task</title>
+
+    <meta name="decorator" content="atl.general">
+
+    <style id="css">
+        .app {
+            display: flex;
+            background-color: #0A192F;
+
+        }
+        .app_bodyImages {
+            display: flex;
+            margin: 20px;
+            justify-content: space-around;
+        }
+        .app_bodyImage {
+            object-fit: contain;
+            width: 300px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .app_bodyImage2 {
+            object-fit: contain;
+            width: 300px;
+        }
+
+
+        .app_bodyTitle {
+            font-size: 30px;
+            text-align: center;
+            color: #CCD6F6;
+        }
+
+        .result {
+            font-size: 20px;
+            color:#CCD6F6;
+            text-align: center;
+            border: 1px solid darkcyan;
+        }
+
+    </style>
+</head>
+<body>
+<div class="app">
+    <div class="app_body">
+        <h3 class="app_bodyTitle">Currency Converter</h3>
+        <div class="app_bodyImages">
+            <img
+                    class="app_bodyImage"
+                    src="https://images-media.currency.com/6e89780f/1959/5495/93cc/37aa5e222ba9/on_page/shutterstock-367050494.jpg"
+                    alt=""
+            />
+
+            <img
+                    src="https://sufio.com/content/media/images/currencies-featured.width-1440.jpg"
+                    class="app_bodyImage2"
+                    alt=""
+            />
+        </div>
+
+        <p class="result">1 Dollar is $lira</p>
+    </div>
+</div>
+</body>
+</html>
